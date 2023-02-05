@@ -1,6 +1,6 @@
 import openai
 def interact_with_chatbot(prompt):
-    openai.api_key = "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"
+    openai.api_key = "key"
     completions = openai.Completion.create(
         engine="text-davinci-002",
         prompt=prompt,
